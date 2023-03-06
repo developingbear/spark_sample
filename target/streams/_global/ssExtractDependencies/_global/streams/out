@@ -1,8 +1,8 @@
-[error] sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-sql-kafka-0-10_2.12_2.12:2.4.5
+[error] sbt.librarymanagement.ResolveException: Error downloading com.eed3si9n:sbt-assembly;sbtVersion=1.0;scalaVersion=2.12:0.14.5
 [error]   Not found
 [error]   Not found
-[error]   not found: /Users/kakao/.ivy2/localorg.apache.spark/spark-sql-kafka-0-10_2.12_2.12/2.4.5/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.12_2.12/2.4.5/spark-sql-kafka-0-10_2.12_2.12-2.4.5.pom
+[error]   not found: /Users/kakao/.ivy2/localcom.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.14.5/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/eed3si9n/sbt-assembly_2.12_1.0/0.14.5/sbt-assembly-0.14.5.pom
 [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
 [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
 [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
@@ -27,14 +27,14 @@
 [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
 [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
 [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-[error] 	at java.lang.Thread.run(Thread.java:750)
-[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-sql-kafka-0-10_2.12_2.12:2.4.5
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading com.eed3si9n:sbt-assembly;sbtVersion=1.0;scalaVersion=2.12:0.14.5
 [error]   Not found
 [error]   Not found
-[error]   not found: /Users/kakao/.ivy2/localorg.apache.spark/spark-sql-kafka-0-10_2.12_2.12/2.4.5/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.12_2.12/2.4.5/spark-sql-kafka-0-10_2.12_2.12-2.4.5.pom
+[error]   not found: /Users/kakao/.ivy2/localcom.eed3si9n/sbt-assembly/scala_2.12/sbt_1.0/0.14.5/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/eed3si9n/sbt-assembly_2.12_1.0/0.14.5/sbt-assembly-0.14.5.pom
