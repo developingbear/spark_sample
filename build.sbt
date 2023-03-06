@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-streaming" % sparkVersion,
   "org.apache.spark" %% "spark-streaming-kafka-0-10" % sparkVersion,
 )
-
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "1.1.0")
 import sbt._
 
 updateOptions := updateOptions.value.withCachedResolution(true)
