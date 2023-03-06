@@ -7,7 +7,7 @@ import common.utils.LogicalDateTime
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 trait AtomIO{
-  lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
+  private lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
 
   def readAtom(idType: Identifier.Value, logicalDateTime: LogicalDateTime): DataFrame = {
     val atomBasePath = idType match {

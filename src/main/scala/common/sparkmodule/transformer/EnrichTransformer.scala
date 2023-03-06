@@ -7,7 +7,7 @@ import org.apache.spark.sql.functions.{col, get_json_object, lit, to_timestamp}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 trait EnrichTransformer {
-  lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
+  private lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
   import spark.implicits._
 
 

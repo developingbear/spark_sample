@@ -8,7 +8,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{DataFrame, Encoders, SparkSession}
 
 trait CoreTransformer extends CoreUDF {
-  lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
+  private lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
   import spark.implicits._
 
   // Core functions

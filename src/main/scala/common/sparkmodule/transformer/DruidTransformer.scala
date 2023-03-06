@@ -7,60 +7,15 @@ import org.apache.spark.sql.functions.{coalesce, col, count, lit, struct, sum, t
 import org.apache.spark.sql.{Column, DataFrame, SparkSession}
 
 trait DruidTransformer {
-  lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
+  private lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
   import spark.implicits._
 
   def transformCoreToDruid(idType: Identifier.Value,
                            rankerType: Ranker.Value,
                            coreDF: DataFrame): DataFrame = {
 
-    ((idType, rankerType) match {
-      case (_, Ranker.CONVERSION) || (_, Ranker.ACTION) =>
-        coreDF
-          .groupBy(
-            getDimensions() ++ List($"bconEventCode", $"convActionType", $"delayType", $"usableOnlyStats"): _*
-          ).agg(
-          count("*") as (idType match {
-            case Identifier.ADID => "conversion"
-            case Identifier.ACID => "acidConversion"
-          }),
-          sum("conversionValue") as (idType match {
-            case Identifier.ADID => "conversionValue"
-            case Identifier.ACID => "acidConversionValue"
-          }),
-          sum("chargeAmount") as "chargeAmount",
-        )
-
-      case (Identifier.ADID, _) =>
-        coreDF
-          .groupBy(getDimensions(): _*)
-          .agg(
-            count($"*") as "count",
-            sum("tagCount") as "tagCount",
-
-            // sum을 계산하지만, column suffix만 Avg
-            // 이후 Turnilo에서 해당 값을 가지고 평균을 계산해서 보여주기 때문에 column명만 미리 Avg로 변경
-            sum("survivalsCnt") as "survivalsAvg",
-            sum("unknownsCnt") as "unknownsAvg",
-
-            sum("chargeAmount") as "chargeAmount",
-            sum("price") as "rs",
-            sum("pctr") as "pctr",
-            sum("ba") as "ba",
-            sum("baFromWin") as "baFromWin",
-            sum("imp") as "imp",
-            sum("vimp") as "vimp",
-            sum("click") as "click",
-            sum("qseValue") as "qseValue",
-            sum("qseClickPcvr") as "qseClickPcvr",
-            sum("qseImpPcvr") as "qseImpPcvr",
-            sum("qseClickAdPcvr") as "qseClickAdPcvr",
-          )
-    }).withColumn("eventTime", $"window.start")
-      .drop($"window")
-      .select(
-        to_json(struct($"*")) as "result"
-      )
+//
+    null
   }
 
   private def getDimensions(): List[Column] = {

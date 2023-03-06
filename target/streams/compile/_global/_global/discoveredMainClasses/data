@@ -1,1 +1,1 @@
-["batch.AtomEnrichedClick","batch.AtomEnrichedConversion","batch.AtomEnrichedWin","batch.AtomEnrichedWinClick","core.batch.AtomClickMetric","core.batch.AtomConvMetric","core.batch.AtomWinMetric"]
+["com.kakao.adrec.atom.metric.core.batch.CoreJob","com.kakao.adrec.atom.metric.enrich.batch.EnrichJob_ConversionAction","com.kakao.adrec.atom.metric.enrich.batch.EnrichJob_WinVimpClick"]

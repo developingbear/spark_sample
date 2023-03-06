@@ -13,7 +13,7 @@ import java.sql.Timestamp
 import scala.collection.mutable.ArrayBuffer
 
 trait EnrichIO{
-  lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
+  private lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
   import spark.implicits._
 
   private def getEnrichBasePath(idType: Identifier.Value, rankerType: Ranker.Value): String = {

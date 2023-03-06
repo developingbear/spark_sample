@@ -7,7 +7,7 @@ import common.utils.LogicalDateTime
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 trait RankerIO{
-  lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
+  private lazy val spark: SparkSession = SparkSession.builder().getOrCreate()
   import spark.implicits._
 
   def readRankerLog(idType: Identifier.Value,
