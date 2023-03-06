@@ -1,0 +1,226 @@
+{
+  "logDttm": "20230225 015239 441",
+  "walletId": 112516,
+  "adPurpose": "TALK_BIZ_BOARD_VISITING",
+  "adAccountId": "112516",
+  "campaignId": "973617",
+  "adGroupId": "2619580",
+  "representativeId": "21317523",
+  "agencyMemberId": null,
+  "businessType": "BUSINESS",
+  "amount": 0,
+  "spendingMethod": "CPC",
+  "uniqueId": "W0nJ7QUYg6wy8cjpQRV4gA",
+  "dspId": "KAKAOMOMENT",
+  "serviceCode": "KAKAOMOMENT",
+  "depositId": null,
+  "userkey": null,
+  "groupingKey": null,
+  "rawMessage": {
+    "action": {
+      "actionId": "W0nJ7QUYg6wy8cjpQRV4gA",
+      "actionType": "win",
+      "actionDttm": "20230225 015239 444",
+      "processDttm": "20230225 015241 268",
+      "ip": "10.41.201.53",
+      "ua": "Adserver-KakaoAdx",
+      "actionLocation": "1"
+    },
+    "winner": {
+      "creativeId": 21317523,
+      "multiplier": 0,
+      "addend": 0,
+      "coefficient": 0,
+      "chargeAmount": 0,
+      "minBidAmount": 10,
+      "bidAmount": 350,
+      "creativeUrl": "//t1.daumcdn.net/b2/creative/112516/b6724915093f50ce69fff2b8f9bd2d1a.png",
+      "adGroupId": 2619580,
+      "campaignId": 973617,
+      "sspPrice": 92.523237991333,
+      "frequencyCount": 1,
+      "representativeId": 21317523,
+      "rankerType": "danke",
+      "targeting": {
+        "ageBand": "20"
+      },
+      "adGroupDailyBudget": 3000000,
+      "expireTime": 4800,
+      "walletId": 112516,
+      "ideaPrice": {
+        "modelprice": 434.26875287383945,
+        "ecpm": 255.91058879765401,
+        "second": 247.40746141176473,
+        "emaprice": 255.91058879765401
+      },
+      "ranking": {
+        "ad": "{\"rank\":1,\"pctr\":0.00031100333,\"p_rs\":0.00031100333,\"ctr\":{\"host_name\":\"dnn-predictor-danke-canary-deploy-9db849898-bz5t5\",\"bucket\":\"cb3\",\"model\":\"ctr_tb_ad_v9.0.1_adid\",\"model_time\":\"20230225_0143\",\"es\":0.00031100333,\"ad_ctime\":\"202302250149\"},\"csStrategy\":\"m\",\"ba\":350,\"metrics\":\"p=0.000311;w=0.000311;;\",\"wba\":350,\"mab\":{\"score\":0},\"ass\":{\"rank\":0,\"score\":0},\"version\":\"ADRECSVR-1009\"}"
+      },
+      "advertiserId": 1646,
+      "adAccountId": 112516,
+      "frequencyCapCount": 10,
+      "sspSecondPrice": 89.4455,
+      "weight": 1,
+      "pcr": 0.0003110024929046631,
+      "price": 108.85086822509766,
+      "pricing": "CPC",
+      "trackId": "975360282649280347",
+      "campaignType": "TALK_BIZ_BOARD",
+      "rankerId": "danke_bizboard",
+      "bannerImgAsset": true,
+      "bidStrategy": "MANUAL",
+      "ownerCompanyId": 14,
+      "salesCategoryId": 88,
+      "filledLandingUrl": "https://www.lge.co.kr/benefits/event/detail-EV00005082?eventCode=marbleevtka&utm_source=kakao&utm_medium=banner&utm_campaign=20230201_marble_evt_pp&utm_content=kao_talk_marble_watchlogo_internet_af",
+      "optimizationGoal": "CLICK",
+      "conversionId": "9adc26e023af4428be8ff54aaaeae543",
+      "imageWidth": 1029,
+      "creativeFormat": "IMAGE_BANNER",
+      "goal": "VISITING",
+      "bucketItemId": "danke_bizboard",
+      "frequencyCapType": "AUTO",
+      "secondPrice": 105.23,
+      "imageHeight": 222,
+      "landingUrl": "https://www.lge.co.kr/benefits/event/detail-EV00005082?eventCode=marbleevtka&utm_source=kakao&utm_medium=banner&utm_campaign=20230201_marble_evt_pp&utm_content=kao_talk_marble_watchlogo_internet_af",
+      "creativeCategories": [
+        "IAB22-4",
+        "DDN22-14"
+      ],
+      "imageRatioType": "bizboard_1029:222",
+      "serviceCode": "KAKAOMOMENT",
+      "creativeHash": "418b65044f347d053277234f83b6bf55",
+      "ecpm": 108.85086822509766,
+      "parentSalesCategoryId": 12
+    },
+    "win": {
+      "winAmount": 89.4455,
+      "dspSecondPrice": 105.23,
+      "sspClosePrice": 89.4455,
+      "dspClosePrice": 105.23
+    },
+    "bid": {
+      "bidRequestId": "a13d20df-7e6e-4956-a5dc-339bd8d86f40-vcjH",
+      "bidRequestDttm": "20230225 015239 398",
+      "bidResponseDttm": "20230225 015239 441",
+      "bidResponseId": "51abd93c3a974a5bbdafdc8e5c61ee84"
+    },
+    "ssp": {
+      "sspId": "KAKAO",
+      "tagId": "DAN-1hux82hxke720",
+      "impType": "NATIVE",
+      "auctionType": "SECOND",
+      "requestCount": 1,
+      "dnr": true,
+      "bidFloor": 0,
+      "appBundle": "com.iwilab.KakaoTalk",
+      "appStoreUrl": "https://itunes.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-kakaotalk/id362057947?mt=8",
+      "impCondition": "RENDERED",
+      "impTypes": [
+        "NATIVE"
+      ],
+      "dealId": "2tab_performance",
+      "lctag": "t",
+      "sdkCacheTime": 4800,
+      "sspTagId": "DAN-1hux82hxke720"
+    },
+    "device": {
+      "adId": "00000000-0000-0000-0000-000000000000",
+      "lmt": true,
+      "ip": "221.159.228.23",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 AdFit/3.12.17",
+      "os": "iOS",
+      "osVersion": "16.1.1",
+      "deviceType": "iOS",
+      "connectionType": "Wifi",
+      "sdkId": "6F00A4D6-D717-4FED-B753-EFFECEB22B0C",
+      "sdkVer": "3.12.17",
+      "sdkType": "ios",
+      "browserVersion": "16.1.1",
+      "isMobile": true,
+      "browser": "Mobile Safari UI/WKWebView",
+      "model": "iPhone"
+    },
+    "dsp": {
+      "placement": "KAKAO_TALK",
+      "creativeFormats": [
+        "IMAGE_BANNER"
+      ],
+      "responseCount": 1,
+      "selectionCount": 50,
+      "filteredCount": 0
+    },
+    "user": {
+      "id": "72e431bad5534439b7b11683054e3862",
+      "gender": "F",
+      "ageBand": "20",
+      "location": "U",
+      "rwbDttm": "20191123 235345 102",
+      "aidTs": 1660667561344,
+      "validAid": true,
+      "a2AgeBand": false,
+      "activatedId": "aid",
+      "userDomainPolicy": "n",
+      "location3": "U00000000",
+      "location2": "U0000",
+      "a2Gender": false
+    },
+    "request": {
+      "ver": "KAKAO-1.0.0",
+      "host": "idea-adserver-5fc6f6f897-kjc2c",
+      "remoteAddr": "10.41.201.53",
+      "bucket": "IDEA-DKOS",
+      "status": "BID",
+      "elapsed": 43,
+      "segments": {
+        "IT": 3,
+        "REACH_FREQ_REDIS": 1,
+        "2TAB_HIDE_REDIS": 1,
+        "EXTERNAL_DATA": 5,
+        "HIDE_REDIS": 1,
+        "REACH_FREQ_DATA": 1,
+        "RANKER_TIMEOUT_REMAINS": 189,
+        "TOTAL": 43,
+        "RANKER_STATE": 20,
+        "HIDE_DATA": 1,
+        "RD_SESSION": 0,
+        "RRRSTATE": 17,
+        "AGT_DATA": 5,
+        "FREQ_DATA": 1,
+        "LISTEN": 4,
+        "FREQ_REDIS": 1,
+        "PREPARE_FILTER": 2,
+        "2TAB_FREQ_REDIS": 1,
+        "PRE_FILTER": 10
+      },
+      "ideaDesc": {},
+      "needOptOut": false,
+      "node": "dkosv3-idea-anyang-worker-rmx7",
+      "expandable": true
+    },
+    "rank": {
+      "metrics": "{\"version\":\"v1.93.5\",\"host_name\":\"bizboard-ranker-danke-deploy-ff8c75cc6-bq9z9\",\"metrics\":\"up=0;at=pb_talk_bizboard;\",\"random\":{\"bucket\":\"rb0\",\"random\":false},\"selection\":{\"totalCnt\":6332,\"isOver\":true,\"allCnt\":5500,\"moCnt\":1590,\"baCnt\":500,\"rnCnt\":3410,\"notCgCnt\":0,\"usedSet\":\"gas\",\"bucket\":\"rs2\",\"bucketScenario\":\"only_gas\",\"model\":\"tb_v1.8.2_ga5s\",\"cpmAdCnt\":0,\"cpcAdCnt\":5219,\"cpaAdCnt\":179,\"hqDnnQseAdCnt\":89,\"hqFtrlQseAdCnt\":13,\"cpvAdCnt\":0,\"autobidConversionAdCnt\":0},\"predictor\":{\"term\":500,\"predictCnt\":5500,\"ctr_predictor\":\"dnn\",\"cvr_predictor\":\"ftrl\",\"vpr_predictor\":\"dnn\"},\"atom\":true,\"user\":{\"adid_tag_type\":\"\",\"aid_tag_type\":\"dnn,ftrl\",\"accid_tag_type\":\"\",\"adIdTagError\":\"ftrl:N\",\"aIdTagError\":\"\",\"accIdTagError\":\"\",\"viewHeavy\":false},\"ranking_type\":{\"type\":\"ad\"},\"mab_predictor\":{\"version\":\"\",\"error\":false,\"hostName\":\"\",\"bucket\":\"\",\"model\":\"\"},\"apm\":{\"apm\":\"ab2\"},\"autopilot\":{\"CONVERSION\":{\"CPC\":{\"bucket\":\"ab2\",\"model\":\"linearex-ab2\",\"term_id\":11,\"term_date\":\"20230225\"}},\"VISITING\":{\"CPC\":{\"bucket\":\"ab4\",\"model\":\"\",\"term_id\":10,\"term_date\":\"20230225\"}}},\"adSemanticSearch\":{\"bucket\":\"\",\"query\":\"\",\"index\":\"\",\"topK\":0,\"assCnt\":0,\"filteredCnt\":0,\"servedAs\":\"CG\",\"error\":\"\"},\"groupSelection\":{\"reqGroupCnt\":1819,\"atomFilterGroupCnt\":1500,\"filterGroupCnt\":0,\"qsDnnQseGroupCnt\":0,\"qsFtrlQseGroupCnt\":0,\"autobidConversionGroupCnt\":0,\"cpmGroupCnt\":0,\"cpcGroupCnt\":0,\"cpaGroupCnt\":0,\"cpvGroupCnt\":0,\"errGroupCnt\":0},\"groupFreqCount\":{\"freqCount\":{\"2526229\":1,\"2581496\":2,\"2586353\":2,\"2619580\":1}},\"ecpmOptInfo\":{\"opt_bucket\":\"eb1\",\"th\":7500,\"grad\":0.4}}",
+      "s2_valid_cnt": "1924",
+      "s2_cnt": "1940"
+    },
+    "ck": "a13d20df-7e6e-4956-a5dc-339bd8d86f40-vcjH",
+    "dt": "20230225 015239",
+    "@frontHost": "dkos-lann-pworker20",
+    "node": "dkos-lann-pworker20",
+    "isFromPre": false,
+    "from": "IDEA-DKOS"
+  },
+  "valid": "Y",
+  "processDttm": "20230225 015241 288",
+  "filterResultCodes": [
+    {
+      "code": "PASSED",
+      "desc": "PASSED"
+    }
+  ],
+  "@adFilter": {
+    "host": "adid-ad-filter-ay-application-win-ff985fb5c-j2xdh",
+    "ip": "10.240.70.183",
+    "logType": "WIN_CONSUMER",
+    "identifierType": "ADID"
+  }
+}

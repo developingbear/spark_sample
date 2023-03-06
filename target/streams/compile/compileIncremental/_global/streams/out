@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 80 products, 15 sources, 6 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/utils/LogicalDateTime.scala, ${BASE}/src/main/scala/batch/AtomEnrichedWin.scala, ${BASE}/src/main/scala/core/batch/AtomWinMetric.scala, ${BASE}/src/main/scala/utils/Core.scala, ${BASE}/src/main/scala/batch/AtomEnrichedClick.scala, ${BASE}/src/main/scala/core/batch/AtomConvMetric.scala, ${BASE}/src/main/scala/domain/AdLog.scala, ${BASE}/src/main/scala/batch/AtomEnrichedWinClick.scala, ${BASE}/src/main/scala/domain/RankerLogType.scala, ${BASE}/src/main/scala/utils/Enrich.scala, ${BASE}/src/main/scala/batch/AtomEnrichedConversion.scala, ${BASE}/src/main/scala/core/batch/AtomClickMetric.scala, ${BASE}/src/main/scala/domain/ID.scala, ${BASE}/src/main/scala/domain/EnrichLogType.scala, ${BASE}/src/main/scala/domain/AtomLog.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
